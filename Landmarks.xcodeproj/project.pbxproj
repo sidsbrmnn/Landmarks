@@ -14,6 +14,7 @@
 		421902E2251D14E100E9A01C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 421902E1251D14E100E9A01C /* Preview Assets.xcassets */; };
 		421902E5251D14E100E9A01C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 421902E3251D14E100E9A01C /* LaunchScreen.storyboard */; };
 		421902EE251D165000E9A01C /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 421902ED251D165000E9A01C /* CircleImage.swift */; };
+		421902F1251D16E500E9A01C /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 421902F0251D16E500E9A01C /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		421902E4251D14E100E9A01C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		421902E6251D14E100E9A01C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		421902ED251D165000E9A01C /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		421902F0251D16E500E9A01C /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +44,7 @@
 		421902CC251D14DC00E9A01C = {
 			isa = PBXGroup;
 			children = (
+				421902F0251D16E500E9A01C /* MapView.swift */,
 				421902D7251D14DC00E9A01C /* Landmarks */,
 				421902D6251D14DC00E9A01C /* Products */,
 			);
@@ -150,6 +153,7 @@
 			files = (
 				421902D9251D14DC00E9A01C /* AppDelegate.swift in Sources */,
 				421902EE251D165000E9A01C /* CircleImage.swift in Sources */,
+				421902F1251D16E500E9A01C /* MapView.swift in Sources */,
 				421902DB251D14DC00E9A01C /* SceneDelegate.swift in Sources */,
 				421902DD251D14DC00E9A01C /* ContentView.swift in Sources */,
 			);
