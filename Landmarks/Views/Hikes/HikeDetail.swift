@@ -9,6 +9,7 @@ import SwiftUI
 
 struct HikeDetail: View {
     let hike: Hike
+    
     @State private var dataToShow = \Hike.Observation.elevation
     
     var buttons = [
