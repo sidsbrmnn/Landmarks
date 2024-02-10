@@ -31,6 +31,7 @@
 		42F49F072B770C170095F194 /* HikeGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42F49F062B770C170095F194 /* HikeGraph.swift */; };
 		42F49F092B7710A90095F194 /* HikeDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42F49F082B7710A90095F194 /* HikeDetail.swift */; };
 		42F49F0B2B7712770095F194 /* HikeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42F49F0A2B7712770095F194 /* HikeView.swift */; };
+		42F49F0E2B771AA60095F194 /* CategoryHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42F49F0D2B771AA60095F194 /* CategoryHome.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -59,6 +60,7 @@
 		42F49F062B770C170095F194 /* HikeGraph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikeGraph.swift; sourceTree = "<group>"; };
 		42F49F082B7710A90095F194 /* HikeDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikeDetail.swift; sourceTree = "<group>"; };
 		42F49F0A2B7712770095F194 /* HikeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikeView.swift; sourceTree = "<group>"; };
+		42F49F0D2B771AA60095F194 /* CategoryHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryHome.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +119,7 @@
 				42B60C2D2B76146C0003EE2E /* Helpers */,
 				42B60C322B761BE30003EE2E /* Badges */,
 				42B60C392B76C18F0003EE2E /* Hikes */,
+				42F49F0C2B771A7B0095F194 /* Categories */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -181,6 +184,14 @@
 				42F49F0A2B7712770095F194 /* HikeView.swift */,
 			);
 			path = Hikes;
+			sourceTree = "<group>";
+		};
+		42F49F0C2B771A7B0095F194 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				42F49F0D2B771AA60095F194 /* CategoryHome.swift */,
+			);
+			path = Categories;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,6 +267,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				42B60C0C2B75F4A40003EE2E /* ContentView.swift in Sources */,
+				42F49F0E2B771AA60095F194 /* CategoryHome.swift in Sources */,
 				42F49F072B770C170095F194 /* HikeGraph.swift in Sources */,
 				42B60C382B761C970003EE2E /* Badge.swift in Sources */,
 				42B60C1A2B75F87C0003EE2E /* MapView.swift in Sources */,
