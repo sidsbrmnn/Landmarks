@@ -136,7 +136,6 @@
 		42B60C212B75FE360003EE2E /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				42F49F1E2B7735F40095F194 /* PageView */,
 				42B60C0B2B75F4A40003EE2E /* ContentView.swift */,
 				42B60C2C2B7614610003EE2E /* Landmarks */,
 				42B60C2D2B76146C0003EE2E /* Helpers */,
@@ -144,6 +143,7 @@
 				42B60C392B76C18F0003EE2E /* Hikes */,
 				42F49F0C2B771A7B0095F194 /* Categories */,
 				42F49F152B7725E30095F194 /* Profiles */,
+				42F49F1E2B7735F40095F194 /* PageView */,
 			);
 			path = Views;
 			sourceTree = "<group>";
