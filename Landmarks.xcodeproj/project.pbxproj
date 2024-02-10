@@ -39,6 +39,9 @@
 		42F49F192B7726510095F194 /* ProfileSummary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42F49F182B7726510095F194 /* ProfileSummary.swift */; };
 		42F49F1B2B7727470095F194 /* HikeBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42F49F1A2B7727470095F194 /* HikeBadge.swift */; };
 		42F49F1D2B772AFD0095F194 /* ProfileEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42F49F1C2B772AFD0095F194 /* ProfileEditor.swift */; };
+		42F49F202B7736A60095F194 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42F49F1F2B7736A60095F194 /* PageViewController.swift */; };
+		42F49F222B77380B0095F194 /* FeatureCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42F49F212B77380B0095F194 /* FeatureCard.swift */; };
+		42F49F242B7739800095F194 /* PageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42F49F232B7739800095F194 /* PageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -75,6 +78,9 @@
 		42F49F182B7726510095F194 /* ProfileSummary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileSummary.swift; sourceTree = "<group>"; };
 		42F49F1A2B7727470095F194 /* HikeBadge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikeBadge.swift; sourceTree = "<group>"; };
 		42F49F1C2B772AFD0095F194 /* ProfileEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileEditor.swift; sourceTree = "<group>"; };
+		42F49F1F2B7736A60095F194 /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
+		42F49F212B77380B0095F194 /* FeatureCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureCard.swift; sourceTree = "<group>"; };
+		42F49F232B7739800095F194 /* PageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +134,7 @@
 		42B60C212B75FE360003EE2E /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				42F49F1E2B7735F40095F194 /* PageView */,
 				42B60C0B2B75F4A40003EE2E /* ContentView.swift */,
 				42B60C2C2B7614610003EE2E /* Landmarks */,
 				42B60C2D2B76146C0003EE2E /* Helpers */,
@@ -223,6 +230,16 @@
 			path = Profiles;
 			sourceTree = "<group>";
 		};
+		42F49F1E2B7735F40095F194 /* PageView */ = {
+			isa = PBXGroup;
+			children = (
+				42F49F1F2B7736A60095F194 /* PageViewController.swift */,
+				42F49F212B77380B0095F194 /* FeatureCard.swift */,
+				42F49F232B7739800095F194 /* PageView.swift */,
+			);
+			path = PageView;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -299,6 +316,7 @@
 				42F49F142B7725330095F194 /* Profile.swift in Sources */,
 				42B60C0C2B75F4A40003EE2E /* ContentView.swift in Sources */,
 				42F49F0E2B771AA60095F194 /* CategoryHome.swift in Sources */,
+				42F49F222B77380B0095F194 /* FeatureCard.swift in Sources */,
 				42F49F072B770C170095F194 /* HikeGraph.swift in Sources */,
 				42B60C382B761C970003EE2E /* Badge.swift in Sources */,
 				42B60C1A2B75F87C0003EE2E /* MapView.swift in Sources */,
@@ -312,11 +330,13 @@
 				42F49F172B7726130095F194 /* ProfileHost.swift in Sources */,
 				42B60C3D2B76C1F50003EE2E /* Hike.swift in Sources */,
 				42B60C362B761C680003EE2E /* RotatedBadgeSymbol.swift in Sources */,
+				42F49F242B7739800095F194 /* PageView.swift in Sources */,
 				42B60C342B761C080003EE2E /* BadgeSymbol.swift in Sources */,
 				42F49F1D2B772AFD0095F194 /* ProfileEditor.swift in Sources */,
 				42B60C272B75FFA20003EE2E /* LandmarkList.swift in Sources */,
 				42F49F0B2B7712770095F194 /* HikeView.swift in Sources */,
 				42B60C292B7602220003EE2E /* LandmarkDetail.swift in Sources */,
+				42F49F202B7736A60095F194 /* PageViewController.swift in Sources */,
 				42B60C312B76186A0003EE2E /* BadgeBackground.swift in Sources */,
 				42F49F1B2B7727470095F194 /* HikeBadge.swift in Sources */,
 				42B60C182B75F7A40003EE2E /* CircleImage.swift in Sources */,
