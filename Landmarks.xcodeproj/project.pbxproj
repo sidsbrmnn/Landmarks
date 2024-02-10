@@ -35,6 +35,9 @@
 		42F49F102B771DDC0095F194 /* CategoryRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42F49F0F2B771DDC0095F194 /* CategoryRow.swift */; };
 		42F49F122B771EE60095F194 /* CategoryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42F49F112B771EE60095F194 /* CategoryItem.swift */; };
 		42F49F142B7725330095F194 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42F49F132B7725330095F194 /* Profile.swift */; };
+		42F49F172B7726130095F194 /* ProfileHost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42F49F162B7726130095F194 /* ProfileHost.swift */; };
+		42F49F192B7726510095F194 /* ProfileSummary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42F49F182B7726510095F194 /* ProfileSummary.swift */; };
+		42F49F1B2B7727470095F194 /* HikeBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42F49F1A2B7727470095F194 /* HikeBadge.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -67,6 +70,9 @@
 		42F49F0F2B771DDC0095F194 /* CategoryRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryRow.swift; sourceTree = "<group>"; };
 		42F49F112B771EE60095F194 /* CategoryItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryItem.swift; sourceTree = "<group>"; };
 		42F49F132B7725330095F194 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		42F49F162B7726130095F194 /* ProfileHost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHost.swift; sourceTree = "<group>"; };
+		42F49F182B7726510095F194 /* ProfileSummary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileSummary.swift; sourceTree = "<group>"; };
+		42F49F1A2B7727470095F194 /* HikeBadge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikeBadge.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +132,7 @@
 				42B60C322B761BE30003EE2E /* Badges */,
 				42B60C392B76C18F0003EE2E /* Hikes */,
 				42F49F0C2B771A7B0095F194 /* Categories */,
+				42F49F152B7725E30095F194 /* Profiles */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -189,6 +196,7 @@
 				42F49F062B770C170095F194 /* HikeGraph.swift */,
 				42F49F082B7710A90095F194 /* HikeDetail.swift */,
 				42F49F0A2B7712770095F194 /* HikeView.swift */,
+				42F49F1A2B7727470095F194 /* HikeBadge.swift */,
 			);
 			path = Hikes;
 			sourceTree = "<group>";
@@ -201,6 +209,15 @@
 				42F49F112B771EE60095F194 /* CategoryItem.swift */,
 			);
 			path = Categories;
+			sourceTree = "<group>";
+		};
+		42F49F152B7725E30095F194 /* Profiles */ = {
+			isa = PBXGroup;
+			children = (
+				42F49F162B7726130095F194 /* ProfileHost.swift */,
+				42F49F182B7726510095F194 /* ProfileSummary.swift */,
+			);
+			path = Profiles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -287,7 +304,9 @@
 				42B60C2B2B7613D50003EE2E /* FavoriteButton.swift in Sources */,
 				42F49F122B771EE60095F194 /* CategoryItem.swift in Sources */,
 				42F49F092B7710A90095F194 /* HikeDetail.swift in Sources */,
+				42F49F192B7726510095F194 /* ProfileSummary.swift in Sources */,
 				42B60C2F2B7617570003EE2E /* HexagonParameters.swift in Sources */,
+				42F49F172B7726130095F194 /* ProfileHost.swift in Sources */,
 				42B60C3D2B76C1F50003EE2E /* Hike.swift in Sources */,
 				42B60C362B761C680003EE2E /* RotatedBadgeSymbol.swift in Sources */,
 				42B60C342B761C080003EE2E /* BadgeSymbol.swift in Sources */,
@@ -295,6 +314,7 @@
 				42F49F0B2B7712770095F194 /* HikeView.swift in Sources */,
 				42B60C292B7602220003EE2E /* LandmarkDetail.swift in Sources */,
 				42B60C312B76186A0003EE2E /* BadgeBackground.swift in Sources */,
+				42F49F1B2B7727470095F194 /* HikeBadge.swift in Sources */,
 				42B60C182B75F7A40003EE2E /* CircleImage.swift in Sources */,
 				42B60C1E2B75FBCE0003EE2E /* Landmark.swift in Sources */,
 				42B60C252B75FE9D0003EE2E /* LandmarkRow.swift in Sources */,
